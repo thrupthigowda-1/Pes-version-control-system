@@ -25,4 +25,4 @@ make pes
 ./test_sequence.sh
 
 ## Author
-Your Name
+THRUPTHI G D
