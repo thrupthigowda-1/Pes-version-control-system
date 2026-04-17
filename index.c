@@ -66,6 +66,7 @@ int index_status(const Index *index) {
     int staged_count = 0;
     // Note: A true Git implementation deeply diffs against the HEAD tree here. 
     // For this lab, displaying indexed files represents the staging intent.
+    
     for (int i = 0; i < index->count; i++) {
         printf("  staged:     %s\n", index->entries[i].path);
 staged_count++;
