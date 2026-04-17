@@ -130,7 +130,7 @@ staged_count++;
     return 0;
 }
 
-// ─── TODO: Implement these ───────────────────────────────────────────────────
+// ─── TODO: Implement these ────
 // Load the index from .pes/index.
 //
 // HINTS - Useful functions:
