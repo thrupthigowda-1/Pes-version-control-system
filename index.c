@@ -210,6 +210,7 @@ fclose(fp);
 //   - index_find                       : checking if the file is already staged
 //
 // Returns 0 on success, -1 on error .
+
 int index_add(Index *index, const char *path) {
     FILE *fp = fopen(path, "rb");
     if (!fp) return -1;
