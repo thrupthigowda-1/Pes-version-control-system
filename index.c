@@ -60,6 +60,7 @@ int index_remove(Index *index, const char *path) {
 // Identifies files that are staged, unstaged (modified/deleted in working dir),
 // and untracked (present in working dir but not in index).
 // Returns 0.
+
 int index_status(const Index *index) {
     printf("Staged changes:\n");
     int staged_count = 0;
